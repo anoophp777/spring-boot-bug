@@ -2,14 +2,6 @@ Credits to @callicoder:
 
 https://github.com/callicoder/spring-boot-actuator-demo
 
-# Spring Boot Actuator: Health Check, Auditing, Metrics Gathering and Monitoring 
-
-## Tutorials 
-
-1. [Spring Boot Actuator: Health check, Auditing, Metrics gathering and Monitoring](https://www.callicoder.com/spring-boot-actuator/)
-2. [Spring Boot Actuator metrics monitoring with Prometheus and Grafana](https://www.callicoder.com/spring-boot-actuator-metrics-monitoring-dashboard-prometheus-grafana/)
-
-
 ## Steps to Setup
 
 
@@ -26,10 +18,8 @@ Alternatively, you can run the app directly without packaging like this -
 mvn spring-boot:run
 ```
 
-The app will start running at <http://localhost:1010>.
+The app will start running at <http://localhost:1010>
 
-## Explore Actuator Endpoints
+## Prometheus endpoint
 
-All the actuator endpoints will be available at <http://localhost:1010/actuator>.
-
-Some of the actuator endpoints are protected with Spring Security's HTTP Basic Authentication. You can use the username `actuator` and password `actuator` for http basic authentication.
+All the actuator endpoints will be available at <http://localhost:1010/management/prometheus>
